@@ -74,7 +74,7 @@ a {
   text-decoration: none;
 }
 img:not(.nav-logo) {
-  width: 100%;
+  max-width: 100%;
   display: block;
 }
 
@@ -128,7 +128,15 @@ p {
   }
 }
 /*  global classes */
-
+.new-title{
+  color:#f1ca89;
+}
+.random-class{
+  height: auto;
+  width: auto;
+  max-height: 120px;
+  max-width: 250px;
+}
 .btn {
   text-transform: uppercase;
   background: var(--clr-primary-5);
@@ -358,6 +366,7 @@ Hero
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
+  font-size: 1.5rem;
 }
 .hero-icons {
   justify-items: start;

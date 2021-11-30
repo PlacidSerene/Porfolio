@@ -521,7 +521,6 @@ Projects
   opacity: 0;
 }
 .project-info p {
-  text-transform: capitalize;
   color: var(--clr-white);
 }
 .project:hover .project-info {
@@ -576,7 +575,7 @@ Projects
     gap: 1rem;
     grid-template-areas:
       "a b b"
-      "a c d";
+      "a c c";
   }
   .project-img {
     height: 100%;
@@ -592,9 +591,6 @@ Projects
   }
   .project-3 {
     grid-area: c;
-  }
-  .project-4 {
-    grid-area: d;
   }
 }
 /*
